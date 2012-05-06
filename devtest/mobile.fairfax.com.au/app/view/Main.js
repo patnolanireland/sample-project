@@ -1,3 +1,9 @@
+/* This class is deprecated and was used initially from the generated
+** Sencha Touch Stub.  Loading the List into the TabPanel was proving
+** problematic so it was left in favour of the Headlines View
+**
+ */
+
 Ext.define("DevTest.view.Main", {
     extend: 'Ext.tab.Panel',
     xtype: 'mainpanel',
@@ -22,10 +28,6 @@ Ext.define("DevTest.view.Main", {
                     docked: 'top',
                     xtype: 'titlebar',
                     title: 'Fairfax JavaScript Developer Test'
-                }, {
-                    xtype: 'panel',
-                    html: 'hello'
-
                 }, {
                     xclass: 'DevTest.view.Headlines'
                 }]
